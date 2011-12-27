@@ -3,7 +3,7 @@ Summary: X.Org X11 Protocol xproto
 Description: |
   This package provides the headers and specification documents defining
   the X Window System Core Protocol, Version 11.
-Version: 7.0.21
+Version: 7.0.22
 Release: 0
 Group: Development/System
 License: MIT
@@ -11,7 +11,8 @@ URL: http://www.x.org
 Sources:
     - http://xorg.freedesktop.org/releases/individual/proto/xproto-%{version}.tar.bz2
 
-Provides: xproto
+Provides: 
+    - xproto
 Configure: configure
 ConfigOptions:
     - --libdir=%{_datadir}
